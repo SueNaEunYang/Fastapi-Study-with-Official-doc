@@ -50,8 +50,7 @@ async def read_user_item(
     ## ==>> needy를 url에 넣지 않으면 오류가 뜸 (value_error.missing)
     ## ===>> http://127.0.0.1:8000/items/foo-item?needy=sooooneedy 와 같이 넣어줘야함
     ## 이것도 가능 :::
-    ##    item_id: str, needy: str, skip: int = 0, limit: Optional[int] = None
-):
+    ##    item_id: str, needy: str, skip: int = 0, limit: Optional[int] = None):
 #     return item
 
 ##경로 매개변수처럼 쿼리 매개변수도 Enum을 사용할 수 있음
